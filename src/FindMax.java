@@ -16,7 +16,6 @@ public class FindMax {
         if (size > 10) {
             System.out.println("Bạn đã nhập quá nhiều");
         }
-        while (size > 20) ;
 
         a = new int[size];
         int i = 0;
@@ -41,5 +40,4 @@ public class FindMax {
         }
         System.out.println("Giá trị lớn nhất là: "+max+" tại vị trí: "+k);
     }
-
 }
